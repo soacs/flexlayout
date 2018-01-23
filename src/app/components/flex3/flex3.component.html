@@ -1,0 +1,19 @@
+<div class="containerX"  >
+  <div class="container" fxLayout.xs="column" fxLayoutGap="10px">
+    <div >Item1</div>
+    <div >Item2</div>
+    <div [fxHide.lg]="invisibleOnDesktop()">Item3</div>
+  </div>
+</div>
+
+
+<div
+  class="main"
+  fxShow
+  fxHide.xs.print="true">DIV example 1
+</div>
+
+<div
+  fxLayout="row"
+  fxLayout.xs.print="column">DIV exmple 2
+  </div>

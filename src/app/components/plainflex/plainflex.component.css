@@ -1,0 +1,17 @@
+.mycontainer {
+  display: flex;
+  background: lightskyblue;
+  height: 100px;
+  width:100%;
+  flex-direction:row;
+  justify-content: right;
+  align-items: center;
+}
+
+.myitem {
+  height: 50px;
+  width: 100px;
+  background: darkorange;
+}
+
+
